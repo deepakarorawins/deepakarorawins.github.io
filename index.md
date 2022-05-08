@@ -1,17 +1,15 @@
-## Welcome to GitHub Pages
+# Welcome to Dee's Notes
 
-You can use the [editor on GitHub](https://github.com/deepakarorawins/deepakarorawins.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Here you will find varity of useful notes related to Test Automation and day to day coding issues, shortcuts etc.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-# To kill all instance of any program on mac terminal
-## Kill chromedriver
+## To kill all instance of any program on mac terminal
+### Kill chromedriver
 pkill -f e.g. "pkill -f chromedriver-mac-64bit" or "pkill -f Google Chrome Helper"
 
-## Stop teamviewer service at Mac machine 
+### Stop teamviewer service at Mac machine 
 sudo launchctl stop com.teamviewer.service
 
-## Kill avd device
+### Kill avd device
 adb -s emulator-5554 emu kill
 
 ### Markdown
