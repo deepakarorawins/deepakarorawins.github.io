@@ -4,6 +4,16 @@ You can use the [editor on GitHub](https://github.com/deepakarorawins/deepakaror
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+# To kill all instance of any program on mac terminal
+## Kill chromedriver
+pkill -f e.g. "pkill -f chromedriver-mac-64bit" or "pkill -f Google Chrome Helper"
+
+## Stop teamviewer service at Mac machine 
+sudo launchctl stop com.teamviewer.service
+
+## Kill avd device
+adb -s emulator-5554 emu kill
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
